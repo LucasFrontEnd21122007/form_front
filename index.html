@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen">
+    <link rel="stylesheet" type="text/Javascript" href="index.js" media="screen">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Cadastro</title>
+</head>
+<body>
+    
+    <div class="campo">
+      <h1 id="titulo">Projeto Frontend</h1>
+      <p id="subtitulo">Será Criado Um Formulário</p>
+    </div class="campo">
+
+    <div class="campo">
+        <label for="Nome"><strong>Nome</strong></label>
+        <input type="text" name="Nome" id="Nome">
+    </div class="campo">
+
+    <div class="campo">
+        <label for="Sobrenome"><strong>Sobrenome</strong></label>
+        <input type="text" name="Sobrenome" id="Sobrenome">
+    </div class="campo">
+
+    <div class="campo">
+        <label for="Email"><strong>Email</strong></label>
+        <input type="email" name="email" id="email">
+    </div class="campo">
+
+    <div class="campo">
+        <label for="Senioridade"><strong>Senioridade</strong></label>
+        <select id="Senioridade">
+            <option selected disabled value="">Escolha</option>
+            <option>Junior</option>
+            <option>Pleno</option>
+            <option>Sênior</option>
+        </select>
+    </div class="campo">
+<br><br>
+    <div class="campo">
+        <label>De Qual Lado Da Aplicação Você Desenvolve?</label>
+        <label>
+            <input type="radio" name="devweb" id="devweb" value="Frontend">Frontend
+            <input type="radio" name="devweb" id="devweb" value="Backend">Backend
+            <input type="radio" name="devweb" id="devweb" value="FullStack">FullStack
+        </label>
+    </div class="campo">
+
+    <div id="check">
+        <label><strong>Quais Tecnologias que utiliza:</strong></label><br><br>
+        <label>
+            <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HTML5">
+            <label for="tecnologia1">HTML5</label>
+            <input type="checkbox" name="tecnologia2" id="tecnologia2" value="CSS3">
+            <label for="tecnologia2">CSS3</label>
+            <input type="checkbox" name="tecnologia3" id="tecnologia3" value="Javascript">
+            <label for="tecnologia3">Javascript</label>
+            <input type="checkbox" name="tecnologia4" id="tecnologia4" value="PHP">
+            <label for="tecnologia4">PHP</label>
+            <input type="checkbox" name="tecnologia5" id="tecnologia5" value="C#">
+            <label for="tecnologia5">C#</label>
+            <input type="checkbox" name="tecnologia6" id="tecnologia6" value="C++">
+            <label for="tecnologia6">C++</label>
+            <input type="checkbox" name="tecnologia7" id="tecnologia7" value="Java">
+            <label for="tecnologia7">Java</label>
+        </label>
+    </div id="check">
+
+<div class="campo">
+    <label for="textarea"><strong>Conte um pouco da sua experiência</strong></label>
+    <textarea row="6" style="width: 26em" id="experiência" name="experiência"></textarea>
+</div class="campo">
+
+<button class="Botão" type="submit">Congratilations!</button>
+
+</body>
+</html>
